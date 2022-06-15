@@ -113,7 +113,22 @@ export default {
           icon: 'mdi-account-box-outline',
           title: 'pagina 2',
           to: '/pagina2'
-        }
+        },
+        {
+          icon: 'mdi-counter',
+          title:'count.vue',
+          to: '/count'
+        },
+        {
+          icon: 'mdi-message-draw',
+          title:'add.vue',
+          to: '/message/add'
+        },
+        {
+          icon: 'mdi-message-alert',
+          title:'read.vue',
+          to:'/message/read'
+        },
       ],
       miniVariant: false,
       right: true,
